@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google translate page</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    h1{
+        color: black;
+        text-align: center;
+    }
+    pre{
+        text-align: center;
+    }
+    div{
+        text-align: right;
+       
+    }
+</style>
+<body>
+    <div id="google_translate_element"></div>
+    <h1>Welcome to Google translate by CHANDAN</h1>
+    <pre>A Front-End Developer is someone who creates websites and web applications.
+        The difference between Front-End and Back-End is that Front-End refers to
+         how a web page looks,
+         while back-end refers to how it works.
+        You can think of Front-End as client-side and Back-End as server-side.
+        The basic languages for Front-End Development are HTML, CSS, and JavaScript.
+
+        <h1>Main responsibilities</h1>
+        The main responsibility of the Front-End Developer is the User interface.
+        Simply put, create things that the user sees.
+    </pre>
+    
+
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script>
+        function googleTranslateElementInit(){
+            new google.translate.TranslateElement(
+                {pageLanguage:'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+</body>
+</html>

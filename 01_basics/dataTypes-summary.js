@@ -35,3 +35,25 @@ myFunction();
 console.log(typeof bigNumber);//bigint
 console.log(typeof myFunction);//function
 console.log(typeof id);//symbol
+
+// stack(primitive), Heap(Non-Primitive)
+
+// In stack - a copy is passed to another variable so if we change in that value it will not effect the original one as shown below
+let myCurrent="current";
+let another=myCurrent;
+
+console.log(myCurrent);//current
+console.log(another);//current
+another="cuury";
+console.log(myCurrent);//current
+console.log(another);//curry
+
+
+// heap - referance is given so if you change value at one place other will also be changed as shown below.
+let user1={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let user2=user1;
+user2.email="user2@google.com"
+console.log(user1);

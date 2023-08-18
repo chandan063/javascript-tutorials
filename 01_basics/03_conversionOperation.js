@@ -43,11 +43,17 @@ let str2=" kumar"
 let str3=str1+str2;
 // console.log(str3);
 
-console.log(1+"2");//12
-console.log("1"+2);//12
-console.log("1"+2+2);//122
-console.log(1+2+"3");//33
+// console.log(1+"2");//12
+// console.log("1"+2);//12
+// console.log("1"+2+2);//122
+// console.log(1+2+"3");//33
 
-console.log(true);//o/p=>true
-console.log(+true);//o/p=>1
-console.log(+" ");//o/p=>1
+// console.log(true);//o/p=>true
+// console.log(+true);//o/p=>1
+// console.log(+" ");//o/p=>1
+
+let game=400;
+++game;
+game++;
+console.log(game);
+// for more clarity of prefix and postfix go and read on mnd

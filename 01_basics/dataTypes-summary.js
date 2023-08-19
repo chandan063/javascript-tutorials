@@ -57,3 +57,7 @@ let user1={
 let user2=user1;
 user2.email="user2@google.com"
 console.log(user1);
+
+let user3=user1;
+user3.upi:"user3@google.com";
+console.log(user3);

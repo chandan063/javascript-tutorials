@@ -16,7 +16,7 @@ const gameName=new String('hello-hello');
 
 const newString =gameName.substring(0,2);
 // console.log(newString);
-
+// console.log(newString);
 const anotherString=gameName.slice(-8,4);
 // console.log(anotherString);
 

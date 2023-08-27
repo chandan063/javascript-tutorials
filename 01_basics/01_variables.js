@@ -1,6 +1,7 @@
 const accountId="1234";
 let accountEmail="hello@gmail.com";
 var accountPassword="32412";
+var accountSecurity="123@chandan";
 accountType="saving";
 
 console.table([accountId,accountEmail,accountPassword,accountType]);
